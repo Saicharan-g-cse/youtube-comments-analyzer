@@ -17,10 +17,8 @@ class YouTubeCommentsAnalyzer(QMainWindow):
         # API key and video ID input widgets
         self.api_key_label = QLabel('YouTube API Key:')
         self.api_key_input = QTextEdit(self)
-        self.api_key_input.setText('AIzaSyB-gvVazbsehG-ChOiVhBfgvK01ITNN-cw')
         self.video_id_label = QLabel('YouTube Video ID:')
         self.video_id_input = QTextEdit(self)
-        self.video_id_input.setText('th5_9woFJmk')
 
         # Output labels
         self.result_label = QLabel('Results:')

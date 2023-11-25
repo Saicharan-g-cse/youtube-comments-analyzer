@@ -4,7 +4,7 @@ import googleapiclient.discovery as GoogleYouTubeAPI
 
 class YouTube:
     __youtube = None
-    __google_api_key: str = 'AIzaSyB-gvVazbsehG-ChOiVhBfgvK01ITNN-cw'  # Put your Google Youtube API client API
+    __google_api_key: str = ''  # Put your Google Youtube API client API
 
     def __init__(self, google_api_key):
         self.__google_api_key = google_api_key
